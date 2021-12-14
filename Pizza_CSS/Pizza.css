@@ -1,0 +1,109 @@
+body {
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(31,31,200,1) 52%, rgba(7,179,243,1) 92%, rgba(0,212,255,1) 100%);
+    
+}
+
+h1 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:white;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(0,212,255,1);
+}
+
+div {
+
+font-family:Luminari, fantasy ;
+color:white;
+}
+#menuBG {
+    width:400px;
+    height:470px;
+    margin:10px auto;
+}
+.glass{
+
+	position: relative;
+	display: inline-block;
+	padding: 15px 35px;
+	background-color: red; 
+	background-image: linear-gradient(red,OrangeRed);
+
+	
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+    border-radius: 3px;
+box-shadow: 0px 1px 4px -2px #333;
+text-shadow: 0px -1px #333;
+}
+
+.glass:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.glass:hover{
+	background: linear-gradient(Crimson,Orange);
+}
+
+
+
+#frmMenu {
+margin-left: -80px;
+    width: 600px;
+    height:200px
+}
+
+
+.left {
+    width: 200px;
+    height: 200px;
+    float:left;
+
+}
+.center {
+    width: 200px;
+    height: 200px;
+    float:left;
+  
+}
+.right {
+    width: 200px;
+    height: 200px;
+    float:right;
+}
+
+#totalPrice {
+    
+    width:200px;
+    height:190px;   
+    margin:0px auto;
+}
+#showText {
+    width:400px;
+    height:190px;
+    margin:0px auto;
+    float:left;
+}
+#cart {
+    
+    top:0;margin:2px auto;
+    width:800px;
+    height:200px;
+    float:left;
+}
+
+#btnOrder {
+    margin: 5px 5px 0px 50px;
+    
+    
+}
